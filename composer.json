@@ -1,5 +1,5 @@
 {
-	"name": "kdyby/forms-replicator",
+	"name": "dek-cz/forms-replicator",
 	"type": "library",
 	"description": "Nette forms container replicator aka addDynamic",
 	"keywords": ["nette", "kdyby", "forms", "replicator", "addDynamic"],
@@ -21,9 +21,9 @@
 		"issues": "https://github.com/Kdyby/FormsReplicator/issues"
 	},
 	"require": {
-		"php": ">=7.1",
+		"php": "^8.2",
 		"nette/forms": "^3.0",
-		"nette/utils": "^3.0"
+		"nette/utils": "^4.0"
 	},
 	"require-dev": {
 		"nette/application": "^3.0@rc",
