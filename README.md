@@ -16,7 +16,7 @@
 ## Install
 
 ```sh
-composer require kdyby/forms-replicator
+composer require dek-cz/forms-replicator
 ```
 
 ## Versions
