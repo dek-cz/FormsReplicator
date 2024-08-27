@@ -374,7 +374,7 @@ class Container extends Nette\Forms\Container
 	}
 
 
-	public function addComponent(Nette\ComponentModel\IComponent $component, ?string $name, ?string $insertBefore = NULL): Nette\ComponentModel\IContainer
+	public function addComponent(Nette\ComponentModel\IComponent $component, ?string $name, ?string $insertBefore = NULL): static
 	{
 		$group = $this->currentGroup;
 		$this->currentGroup = NULL;
